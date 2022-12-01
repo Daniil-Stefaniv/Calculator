@@ -1,0 +1,42 @@
+.Btn {
+    width: 100%;
+    height: 100%;
+    padding: 16px 32px;
+    background: rgb(111, 86, 254);
+    transition: background .2s ease-in-out;
+    border-radius: 10px;
+    color: #fff;
+
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    user-select: none;
+}
+
+.Btn:hover {
+    background: rgb(90, 71, 194);
+}
+
+.Btn:active {
+    background: rgb(65, 50, 146);
+}
+
+.Btn:focus-visible {
+    outline: 9px solid rgb(111, 86, 254);
+}
+
+.ResultBtn {
+    background: red;
+}
+
+.ResultBtn:hover {
+    background: rgb(175, 5, 5);
+}
+
+.ResultBtn:active {
+    background: rgb(247, 71, 71);
+}
+
+.ResultBtn:focus-visible {
+    outline: 9px solid red;
+}

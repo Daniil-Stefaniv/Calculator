@@ -1,0 +1,47 @@
+.Input {
+    width: 80%;
+
+    height: 64px;
+    padding-left: 25px;
+
+    border-radius: 15px 0px 0px 15px;
+    border: 3px solid #fff;
+
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #333;
+    cursor: not-allowed;
+}
+
+.Input:focus-visible {
+    outline: none;
+}
+
+.inputContainer {
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.deleteBtn {
+    width: 23%;
+    background: red;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 22px;
+    color: #fff;
+    transition: background .2s ease-in-out;
+    user-select: none;
+}
+
+.deleteBtn:hover {
+    background: rgb(175, 5, 5);
+}
+
+.deleteBtn:active {
+    background: rgb(247, 71, 71);
+}
+
+.deleteBtn:focus-visible {
+    outline: 9px solid red;
+}

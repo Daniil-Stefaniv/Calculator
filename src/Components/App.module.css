@@ -1,0 +1,24 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('https://images.unsplash.com/photo-1640024490402-72a5c652f56f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+}
+
+.MainContent {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+
+    padding: 150px;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 200px 15px rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(3px);
+    border-radius: 15px;
+}
